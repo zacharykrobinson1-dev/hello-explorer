@@ -77,3 +77,28 @@ footer {
   color: rgba(234, 240, 255, 0.7);
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
+
+.planet-row {
+  display: flex;
+  gap: 16px;
+  margin: 12px 0;
+}
+
+/* Planet links */
+.planet {
+  display: inline-block;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+/* Planet images (small size) */
+.planet img {
+  width: 60px;
+  height: auto;
+  display: block;
+}
+
+/* Active planet highlight */
+.planet.active {
+  border: 2px solid white;
+}
