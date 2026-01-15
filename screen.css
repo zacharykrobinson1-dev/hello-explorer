@@ -93,7 +93,7 @@ footer {
 
 /* Planet images (small size) */
 .planet img {
-  width: 60px;
+  width: 100px;
   height: auto;
   display: block;
 }
