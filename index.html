@@ -3,17 +3,63 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Earth | Hello Explorer</title>
     <link rel="stylesheet" href="screen.css">
   </head>
+
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+    <header>
+      <h1>Hello Explorer</h1>
+
+      <nav aria-label="Earth and Moon navigation">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link active" aria-current="page">
+              <img class="nav-icon" src="images/earth.svg" alt="Earth icon">
+              <span>Earth</span>
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-link">
+              <img class="nav-icon" src="images/moon.svg" alt="Moon icon">
+              <span>Moon</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Earth</h2>
+      
+      <img src="earth.png" alt="Image of the Earth" class="planet-image">
+
+
+      <!--
+        AI Description
+        Model: GPT-5.2 Thinking
+        Prompt: "Write a short, clear description of Earth for a beginner student website. 2–4 sentences. Friendly tone."
+      -->
+      <p>
+        Earth is a rocky planet with liquid water on its surface and an atmosphere that supports life.
+        It has seasons, weather, and a protective magnetic field. Earth is also the only known place in the universe
+        where life exists.
+      </p>
+
+      <section class="card">
+        <h3>Quick facts</h3>
+        <ul>
+          <li><strong>Type:</strong> Terrestrial planet</li>
+          <li><strong>One day:</strong> About 24 hours</li>
+          <li><strong>Moon:</strong> 1 natural satellite</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Exercise 1.5 — Earth & Moon</p>
+    </footer>
+
     <script src="index.js"></script>
   </body>
 </html>

@@ -3,17 +3,66 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Page</title>
+    <title>Moon | Hello Explorer</title>
     <link rel="stylesheet" href="screen.css">
   </head>
+
   <body>
-    <h1>About Page</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-      </ul>
-    </nav>
+    <header>
+      <h1>Hello Explorer</h1>
+
+      <nav aria-label="Earth and Moon navigation">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">
+              <img class="nav-icon" src="images/earth.svg" alt="Earth icon">
+              <span>Earth</span>
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-link active" aria-current="page">
+              <img class="nav-icon" src="images/moon.svg" alt="Moon icon">
+              <span>Moon</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Moon</h2>
+
+      <img src="moon.png" alt="Image of the Moon" class="planet-image">
+
+
+
+      <!--
+        AI Description
+        GPT-5.2 
+        Prompt: "Write a short, clear description of the Moon for a beginner student website. 2–4 sentences. Mention craters or tides."
+      -->
+
+
+      <p>
+        The Moon is Earth’s natural satellite and it orbits around Earth. Its surface has many craters made by impacts.
+        The Moon also affects Earth’s ocean tides because of gravity.
+      </p>
+
+      <section class="card">
+        <h3>Quick facts</h3>
+        <ul>
+          <li><strong>Type:</strong> Natural satellite</li>
+          <li><strong>Orbit time:</strong> About 27 days</li>
+          <li><strong>Surface:</strong> Rocky with craters</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Exercise 1.5 — Earth & Moon</p>
+    </footer>
+
     <script src="index.js"></script>
   </body>
 </html>
+
